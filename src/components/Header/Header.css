@@ -1,0 +1,30 @@
+.header {
+    margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f08302f8;
+    min-height: 8vh;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+}
+nav ul a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 14px 12px;
+}
+nav ul a:hover {
+    opacity: 0.8;
+    background: orange;
+}
